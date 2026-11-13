@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#141414">
+  <title>Income Estimator | Your Company</title>
+  <meta name="description" content="Your drive. Your upside. Explore your potential base salary, commission, and benefits in commercial paving with our Income Estimator.">
+  <meta property="og:title" content="What could you earn selling for us?">
+  <meta property="og:description" content="Choose your path. Set your pace. See your potential compensation in commercial paving.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Your Company">
+  <meta property="og:url" content="https://kevinciang1006.github.io/income-estimator-demo/">
+  <meta property="og:image" content="https://kevinciang1006.github.io/income-estimator-demo/og-image.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="627">
+  <meta property="og:image:alt" content="Your Company Income Estimator. Your drive. Your upside. Choose your path and explore your earning potential.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="What could you earn selling for us?">
+  <meta name="twitter:description" content="Explore your base salary, commission, and benefits in commercial paving.">
+  <meta name="twitter:image" content="https://kevinciang1006.github.io/income-estimator-demo/og-image.png">
+  <meta name="twitter:image:alt" content="Your drive. Your upside. The Your Company Income Estimator.">
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body data-screen="estimator">
+  <a class="skip-link" href="#main">Skip to calculator</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="icon-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="icon-lock" viewBox="0 0 24 24"><rect x="5" y="10" width="14" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2"/></symbol>
+    <symbol id="icon-shield" viewBox="0 0 24 24"><path d="m12 3 8 3v6c0 5-8 9-8 9s-8-4-8-9V6l8-3Z"/><path d="m8 12 3 3 5-5"/></symbol>
+    <symbol id="icon-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+  </svg>
+
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="./index.html" aria-label="Your Company — start over">
+        <svg class="brand-symbol" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="7" fill="currentColor"/><path d="M8 27 16 9h5l-8 18Zm10 0 8-18h3l-8 18Z" fill="#141414"/></svg>
+        <span>Your Company<span class="brand-caption">COMMERCIAL PAVING</span></span>
+      </a>
+      <span class="header-label"><span class="status-dot"></span> CAREERS, BUILT DIFFERENT.</span>
+      <span class="demo-badge">DEMO</span>
+    </header>
+
+    <main id="main" class="app-layout" tabindex="-1">
+      <aside class="hero" aria-label="About the estimator">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE INCOME ESTIMATOR</div>
+        <h1>Your drive.<br> Your <span>upside.</span></h1>
+        <p class="hero-description">Big projects. Real opportunity.<br> See where a career in commercial paving could take you.</p>
+        <div class="hero-route" aria-hidden="true">
+          <div class="route-stop is-current" data-route="1"><span>01</span><div>Choose your path<small>A foundation that fits you.</small></div></div>
+          <div class="route-stop" data-route="2"><span>02</span><div>Set your pace<small>Your ambition does the math.</small></div></div>
+          <div class="route-stop" data-route="3"><span>03</span><div>See your potential<small>The whole picture, in dollars.</small></div></div>
+        </div>
+        <div class="hero-note"><svg class="icon" aria-hidden="true"><use href="#icon-shield"/></svg><span>Your future deserves a clear picture.<small>Explore an estimate in about a minute.</small></span></div>
+      </aside>
+
+      <section id="estimator" class="calculator" aria-label="Income estimator">
+        <div class="calculator-topline"><span>BUILD YOUR PACKAGE</span><span id="step-caption">STEP 01 / 03</span></div>
+        <ol class="road-progress" aria-label="Calculator progress">
+          <li class="is-current" aria-current="step"><span>1</span><span class="sr-only">Choose your path</span></li>
+          <li><span>2</span><span class="sr-only">Set your pace</span></li>
+          <li><span>3</span><span class="sr-only">See your potential</span></li>
+        </ol>
+
+        <section class="step" id="step-1" aria-labelledby="path-title">
+          <div class="step-heading"><h2 id="path-title" tabindex="-1">Choose your path.</h2><p>A little more stability, or a little more upside?<br class="desktop-break"> Start with the base that works for you.</p></div>
+          <fieldset class="path-options">
+            <legend class="sr-only">Annual base salary</legend>
+            <label class="path-card" data-path="base_0">
+              <input class="sr-only" type="radio" name="path" value="base_0">
+              <span class="path-visual" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="path-copy"><span class="path-amount">$0 <small>Base</small></span><span class="path-subtitle">Highest commission</span></span>
+              <span class="path-radio" aria-hidden="true"><svg class="icon"><use href="#icon-check"/></svg></span>
+            </label>
+            <label class="path-card is-selected" data-path="base_25000">
+              <input class="sr-only" type="radio" name="path" value="base_25000" checked>
+              <span class="path-visual" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="path-copy"><span class="path-amount">$25,000 <small>Base</small></span><span class="path-subtitle">Balanced</span></span>
+              <span class="path-radio" aria-hidden="true"><svg class="icon"><use href="#icon-check"/></svg></span>
+            </label>
+            <label class="path-card" data-path="base_50000">
+              <input class="sr-only" type="radio" name="path" value="base_50000">
+              <span class="path-visual" aria-hidden="true"><i></i><i></i><i></i></span>
+              <span class="path-copy"><span class="path-amount">$50,000 <small>Base</small></span><span class="path-subtitle">Most security</span></span>
+              <span class="path-radio" aria-hidden="true"><svg class="icon"><use href="#icon-check"/></svg></span>
+            </label>
+          </fieldset>
+          <p id="path-hint" class="path-hint">A $25,000 foundation, plus 15–35% marginal commission.</p>
+          <button class="button button-primary" type="button" data-go-step="2">Set my earning potential<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+          <p class="step-footnote">Your path. Your pace. You can change either anytime.</p>
+        </section>
+
+        <section class="step" id="step-2" aria-labelledby="potential-title" hidden>
+          <div class="step-heading"><h2 id="potential-title" tabindex="-1">Set your pace.</h2><p>Picture the business you could bring in.<br class="desktop-break"> We’ll work out what it means for you.</p></div>
+          <div class="selected-path"><span><span class="status-dot"></span><span id="selected-path-label">$25,000 base</span></span><button class="text-button" type="button" data-go-step="1">Change path</button></div>
+          <div class="profit-control">
+            <label for="gross-profit">Estimated gross profit you generate per year</label>
+            <div class="profit-value"><output id="gross-profit-value" for="gross-profit">$750,000</output><span>/ YEAR</span></div>
+            <input id="gross-profit" type="range" min="0" max="2000000" step="10000" value="750000" aria-describedby="profit-help" aria-valuetext="$750,000 per year">
+            <div class="range-endpoints" aria-hidden="true"><span>$0</span><span>$2,000,000</span></div>
+            <p class="field-hint" id="profit-help">Gross profit is revenue minus direct job costs.</p>
+          </div>
+          <div class="benefits-control">
+            <label class="switch-row" for="benefits-toggle"><span><span class="control-label">Opt-in to healthcare &amp; retirement plan</span><span class="field-hint">Build coverage into your package.</span></span><span class="switch"><input type="checkbox" role="switch" id="benefits-toggle" aria-controls="family-panel" aria-expanded="false"><span class="switch-track" aria-hidden="true"></span></span></label>
+            <div id="family-panel" class="family-panel" hidden>
+              <div class="family-row"><p id="family-label">Family members needing coverage <span>(including yourself)</span></p><div class="stepper" role="group" aria-labelledby="family-label"><button id="family-minus" type="button" aria-label="Cover one fewer family member" disabled>−</button><output id="family-value" aria-live="polite" aria-atomic="true">1</output><button id="family-plus" type="button" aria-label="Cover one more family member">+</button></div></div>
+              <div class="coverage-note"><svg class="icon" aria-hidden="true"><use href="#icon-shield"/></svg><p><strong id="benefits-preview">$9,000 / year in benefits</strong><span id="threshold-note">Your commission tier thresholds rise by $15,000 with this coverage.</span></p></div>
+            </div>
+          </div>
+          <div class="mini-teaser"><div><span class="small-label">YOUR TOTAL PACKAGE</span><span class="teaser-amount" id="mini-teaser-value" aria-hidden="true">$1••,•••</span><span class="sr-only">Estimate ready. Sign in on the next step to reveal it.</span></div><span class="locked-label"><svg class="icon" aria-hidden="true"><use href="#icon-lock"/></svg>Ready to reveal</span></div>
+          <button class="button button-primary" type="button" data-go-step="3">See my estimate<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+          <button class="back-button" type="button" data-go-step="1"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>Back to your path</button>
+        </section>
+
+        <section class="step" id="step-3" aria-labelledby="unlock-title" hidden>
+          <div class="step-heading"><h2 id="unlock-title" tabindex="-1">The upside is yours.</h2><p>You’ve set the pace. Now see the full picture.</p></div>
+          <div class="teaser-card"><span class="small-label">YOUR TOTAL COMPENSATION PACKAGE</span><div class="large-teaser" id="large-teaser-value" aria-hidden="true">$1••,•••</div><span class="sr-only">Your estimate is ready to unlock.</span><span class="teaser-caption">PER YEAR · BUILT AROUND YOUR AMBITION</span><div class="teaser-parts"><span>Base salary</span><b>+</b><span>Commission</span><b>+</b><span>Benefits</span></div><span class="teaser-lock"><svg class="icon" aria-hidden="true"><use href="#icon-lock"/></svg></span></div>
+          <div class="estimate-recap"><span id="recap-path">$25,000 base</span><span id="recap-profit">$750,000 gross profit</span></div>
+          <div class="unlock-copy"><h3>Put a name to your potential.</h3><p>Sign in to reveal your total package and see exactly how each commission tier adds up.</p></div>
+          <button class="button button-linkedin" id="linkedin-signin" type="button"><span class="linkedin-mark" aria-hidden="true">in</span>Sign in with LinkedIn<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button>
+          <p class="demo-signin-note"><svg class="icon" aria-hidden="true"><use href="#icon-lock"/></svg>Demo sign-in. No real LinkedIn account needed.</p>
+          <button class="back-button" type="button" data-go-step="2"><svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg>Adjust my estimate</button>
+        </section>
+      </section>
+
+      <section id="results" class="results" aria-labelledby="results-title" hidden>
+        <div class="results-heading"><div><div class="eyebrow"><span class="eyebrow-line"></span> YOUR NEXT CHAPTER</div><h1 id="results-title" tabindex="-1">That’s your potential, Alex.</h1><p>A clear view of what your drive could deliver.</p></div><span class="result-ready"><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg>YOUR ESTIMATE IS READY</span></div>
+        <div class="total-card"><div class="total-card-copy"><span class="small-label">TOTAL COMPENSATION PACKAGE</span><div class="total-value"><span id="total-amount">$0</span><span>/ year</span></div><p id="total-description">Base salary + commission + benefits</p></div><div class="total-card-aside"><span class="total-card-icon" aria-hidden="true"><svg class="icon"><use href="#icon-arrow"/></svg></span><span id="results-path">$25,000 base path</span><span id="results-profit">Based on $750,000 gross profit / year</span></div></div>
+        <div class="result-stats"><div class="stat-card"><span class="stat-label"><i class="swatch swatch-base"></i>Base salary</span><strong id="result-base">$25,000</strong><span>Your annual foundation</span></div><div class="stat-card"><span class="stat-label"><i class="swatch swatch-commission"></i>Commission payout</span><strong id="result-commission">$0</strong><span id="commission-rate-note">15–35% marginal rates</span></div><div class="stat-card"><span class="stat-label"><i class="swatch swatch-benefits"></i>Benefits value</span><strong id="result-benefits">$0</strong><span id="coverage-summary">Coverage not selected</span></div></div>
+        <div class="result-detail-grid">
+          <section class="breakdown-panel" aria-labelledby="breakdown-title"><div class="panel-heading"><h2 id="breakdown-title">How it adds up</h2><span class="small-label">MARGINAL COMMISSION</span></div><p class="panel-description" id="tier-explanation">Each rate applies only to the gross profit within that tier.</p><table class="commission-table"><caption class="sr-only">Commission payout by gross profit tier</caption><thead><tr><th scope="col">Gross profit band</th><th scope="col">Rate</th><th scope="col">Payout</th></tr></thead><tbody id="tier-rows"></tbody><tfoot><tr><th scope="row" colspan="2">Total commission</th><td id="table-total">$0</td></tr></tfoot></table><p class="tier-shift-note" id="result-threshold-note" hidden></p></section>
+          <section class="package-panel" aria-labelledby="package-title"><h2 id="package-title">Your package, at a glance.</h2><p class="panel-description">Every part has a part to play.</p><div class="stacked-bar" id="compensation-bar" role="img" aria-label="Compensation split"><span class="bar-base" id="bar-base"></span><span class="bar-commission" id="bar-commission"></span><span class="bar-benefits" id="bar-benefits"></span></div><ul class="split-legend"><li><span><i class="swatch swatch-base"></i>Base salary</span><strong id="share-base">0%</strong></li><li><span><i class="swatch swatch-commission"></i>Commission</span><strong id="share-commission">0%</strong></li><li><span><i class="swatch swatch-benefits"></i>Benefits</span><strong id="share-benefits">0%</strong></li></ul><div class="cash-total"><span>Cash take-home<small>Base + commission, before taxes</small></span><strong id="result-cash">$0</strong></div><p class="zero-note" id="zero-note" hidden>Increase gross profit to see your earnings split.</p></section>
+        </div>
+        <details class="crm-panel"><summary><span><span>What the CRM receives</span><small>Demo: webhook payload</small></span><svg class="icon" aria-hidden="true"><use href="#icon-chevron"/></svg></summary><div class="crm-content"><p>This is the exact JSON body prepared for a NetHunt webhook. This demo does not send it.</p><pre id="crm-payload" tabindex="0" aria-label="Demo NetHunt webhook JSON payload"></pre></div></details>
+        <div class="results-bottom"><button class="button button-primary" id="recalculate" type="button">Recalculate<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><p>Illustrative estimates using placeholder formulas.<br>Your company will confirm its actual compensation plan.</p></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><span>BUILT ON YOUR AMBITION.</span><p>Income Estimator <span aria-hidden="true">/</span> Illustrative demo</p></footer>
+  </div>
+
+  <dialog id="linkedin-dialog" aria-labelledby="consent-title" aria-describedby="consent-description">
+    <div class="consent-sheet"><div class="consent-top"><span class="linkedin-mark" aria-hidden="true">in</span><button class="close-button" id="consent-close" type="button" aria-label="Close demo sign-in">×</button></div><span class="small-label">A QUICK INTRODUCTION</span><h2 id="consent-title">Meet your demo profile.</h2><p id="consent-description">Demo mode: in production this is LinkedIn OpenID Connect</p><div class="demo-profile"><span class="profile-avatar" aria-hidden="true">AR</span><div><strong>Alex Rivera</strong><span>alex.rivera@example.com</span></div><svg class="icon" aria-hidden="true"><use href="#icon-check"/></svg></div><p class="consent-explanation">Continue with this sample name and email to reveal your estimate. No LinkedIn connection or CRM request is made.</p><button class="button button-linkedin" id="consent-continue" type="button">Continue as Alex<svg class="icon" aria-hidden="true"><use href="#icon-arrow"/></svg></button><p id="consent-status" class="consent-status" role="status" aria-live="polite">Just a demo. All the potential.</p></div>
+  </dialog>
+  <div class="sr-only" id="step-announcement" role="status" aria-live="polite" aria-atomic="true"></div>
+  <noscript><div class="noscript-note">Please enable JavaScript to use this income calculator. The demo runs entirely on your device.</div></noscript>
+</body>
+</html>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="627" viewBox="0 0 1200 627">
+  <rect width="1200" height="627" fill="#141414"/>
+  <g stroke="#F5B700" stroke-width="10" stroke-dasharray="70 46" opacity=".9"><line x1="0" y1="560" x2="1200" y2="560"/></g>
+  <rect x="80" y="80" width="56" height="56" rx="10" fill="#F5B700"/>
+  <path d="M93 124 106 92h8l-13 32Zm17 0 13-32h5l-13 32Z" fill="#141414"/>
+  <text x="156" y="118" fill="#F4F1E8" font-family="Barlow, Helvetica, Arial, sans-serif" font-size="28" font-weight="700" letter-spacing="1">YOUR COMPANY</text>
+  <text x="80" y="250" fill="#F4F1E8" font-family="Barlow, Helvetica, Arial, sans-serif" font-size="84" font-weight="800">What could you earn</text>
+  <text x="80" y="345" fill="#F5B700" font-family="Barlow, Helvetica, Arial, sans-serif" font-size="84" font-weight="800">selling for us?</text>
+  <text x="80" y="430" fill="#C0C0B5" font-family="Barlow, Helvetica, Arial, sans-serif" font-size="34" font-weight="500">Choose your path. Set your pace. See your package in 60 seconds.</text>
+</svg>
